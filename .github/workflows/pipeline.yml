@@ -28,7 +28,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run data fetch script
-        run: python fetch_financial_data.py
+        run: python fetch_financial_data.ipynb
 
       - name: Commit and push updated data
         run: |
